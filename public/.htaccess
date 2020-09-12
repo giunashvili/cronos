@@ -1,4 +1,8 @@
 <IfModule mod_rewrite.c>
+    
+    Options +ExecCGI +FollowSymLinks
+    SetHandler cgi-script
+
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
     </IfModule>
