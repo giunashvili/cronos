@@ -1,0 +1,8 @@
+#include "headers/view.h"
+
+int main(int argv, char** argc, char** envp)
+{ 
+
+  view("index");
+  return 0;
+}
