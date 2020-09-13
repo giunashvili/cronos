@@ -1,6 +1,6 @@
 #ifndef ENV
 #define ENV
-const char* VIEW_RESOURCE_PATH  = "./views/";
+const char* VIEW_RESOURCE_PATH  = "../framework/views/";
 
 const char* SERVER              = "localhost";
 const char* USER                = "root";

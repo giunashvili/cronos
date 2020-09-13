@@ -1,0 +1,11 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+          "match": "framework/*",
+          "isAsync": true,
+          "cmd": "./compile.sh"
+      }
+    ]
+  }
+}

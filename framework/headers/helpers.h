@@ -7,6 +7,11 @@ void setContentToHTML()
   printf("Content-type: text/html\n\n");
 }
 
+void setContentToJSON()
+{
+  printf("Content-type: application/json\n\n");
+}
+
 void printEnvs(char** envs)
 {
   setContentToHTML();
