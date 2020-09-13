@@ -1,8 +1,8 @@
-#include "types.h"
 #include "mysql.h"
-#include "reader.h"
-#include "responder.h"
-#include "connection.h"
+#include "libs/types.h"
+#include "libs/reader.h"
+#include "libs/responder.h"
+#include "libs/connection.h"
 #include "../headers/helpers.h"
 
 Result query(char* query)

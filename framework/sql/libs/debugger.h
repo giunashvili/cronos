@@ -3,7 +3,7 @@
 
 #include "types.h"
 #include "stdio.h"
-#include "../headers/helpers.h"
+#include "../../headers/helpers.h"
 
 void printResult( Result result )
 {

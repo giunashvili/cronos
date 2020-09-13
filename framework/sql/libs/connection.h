@@ -1,5 +1,5 @@
 #include "mysql.h"
-#include "../config/env.h"
+#include "../../config/env.h"
 
 /**
  *  Connect to mysql client. 
