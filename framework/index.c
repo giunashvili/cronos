@@ -1,15 +1,9 @@
-#include "headers/view.h"
 #include "sql/sql.h"
+#include "headers/view.h"
 #include "sql/debugger.h"
-#include "mysql.h"
 
-int main(int argv, char** argc, char** envp)
+int main(int argv, char** argc, char** envs)
 { 
-  setContentToJSON();
-  write("<meta charset=\"UTF-8\">");
-
-  Result result = query("select * from chargers limit 10");
-  printResult(result);
-
+  view("index");
   return 0;
 }

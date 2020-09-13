@@ -12,6 +12,11 @@ void setContentToJSON()
   printf("Content-type: application/json\n\n");
 }
 
+void setUTF8()
+{
+  printf("<meta charset=\"UTF-8\">");
+}
+
 void printEnvs(char** envs)
 {
   setContentToHTML();

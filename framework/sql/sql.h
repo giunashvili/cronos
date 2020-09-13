@@ -1,9 +1,9 @@
 #include "types.h"
+#include "mysql.h"
 #include "reader.h"
 #include "responder.h"
 #include "connection.h"
 #include "../headers/helpers.h"
-#include "mysql.h"
 
 Result query(char* query)
 { 

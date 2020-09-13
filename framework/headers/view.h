@@ -1,8 +1,8 @@
-#include "env.h"
 #include "stdio.h"
 #include "string.h"
 #include "stdlib.h"
 #include "helpers.h"
+#include "../config/env.h"
 
 int countChars( char *filePath )
 {
