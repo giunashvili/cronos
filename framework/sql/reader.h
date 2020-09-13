@@ -1,5 +1,5 @@
 #include "types.h"
-#include "/usr/local/mysql/include/mysql.h"
+#include "mysql.h"
 
 Result readData(MYSQL_RES* response)
 {

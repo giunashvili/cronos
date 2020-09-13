@@ -3,7 +3,7 @@
 #include "responder.h"
 #include "connection.h"
 #include "../headers/helpers.h"
-#include "/usr/local/mysql/include/mysql.h"
+#include "mysql.h"
 
 Result query(char* query)
 { 
@@ -21,6 +21,6 @@ Result query(char* query)
   
   mysql_free_result(response);
   mysql_close(connection);
-  
+
   return data;
 }

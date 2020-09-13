@@ -1,5 +1,5 @@
 #include "stdio.h"
-#include "/usr/local/mysql/include/mysql.h"
+#include "mysql.h"
 
 /** 
  * Get Response from sql query execution.

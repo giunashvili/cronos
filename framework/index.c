@@ -1,7 +1,7 @@
 #include "headers/view.h"
 #include "sql/sql.h"
 #include "sql/debugger.h"
-#include "/usr/local/mysql/include/mysql.h"
+#include "mysql.h"
 
 int main(int argv, char** argc, char** envp)
 { 

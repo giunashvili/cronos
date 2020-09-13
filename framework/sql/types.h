@@ -1,6 +1,6 @@
 #ifndef CRONOS_MYSQL_TYPES
 #define CRONOS_MYSQL_TYPES
-#include "/usr/local/mysql/include/mysql.h"
+#include "mysql.h"
 
 typedef struct Result
 {

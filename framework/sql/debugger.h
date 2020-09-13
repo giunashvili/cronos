@@ -1,5 +1,5 @@
 #ifndef CRONOS_MYSQL_DEBUGGER
-#define CRONOS_MTSQL_DEBUGGER
+#define CRONOS_MYSQL_DEBUGGER
 
 #include "types.h"
 #include "stdio.h"
