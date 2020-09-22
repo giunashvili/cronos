@@ -1,11 +1,9 @@
-#ifndef CRONOS_ROUTES
-#define CRONOS_ROUTES
-
 #include "libs/router.h"
+#include "../../project/landing.h"
+#include "../../project/about.h"
 
 void registerRoutes()
 {
-  route("GET:/", "landing", "index");
+  // route("GET:/", &landingIndex);
+  route("GET:/about", &aboutIndex);
 }
-
-#endif

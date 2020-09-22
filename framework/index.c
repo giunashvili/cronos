@@ -5,7 +5,5 @@
 
 int main(int argv, char** argc, char** envs)
 {
-  setContentToHTML();
-  registerRoutes();
-  return 0;
+  return registerRoutes(), 0;
 }

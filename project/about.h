@@ -1,6 +1,6 @@
 #include "../framework/headers/view.h"
 
-void landingIndex()
+void aboutIndex()
 {
-  view("index");
+  view("about");
 }
