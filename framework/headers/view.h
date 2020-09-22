@@ -1,3 +1,6 @@
+#ifndef CRONOS_VIEW
+#define CRONOS_VIEW
+
 #include "stdio.h"
 #include "string.h"
 #include "stdlib.h"
@@ -48,3 +51,5 @@ void view( char* view )
   printf("%s", output);
   free( output );
 }
+
+#endif
