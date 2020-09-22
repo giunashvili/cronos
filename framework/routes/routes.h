@@ -4,6 +4,6 @@
 
 void registerRoutes()
 {
-  // route("GET:/", &landingIndex);
+  route("GET:/", &landingIndex);
   route("GET:/about", &aboutIndex);
 }

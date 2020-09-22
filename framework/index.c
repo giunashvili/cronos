@@ -5,5 +5,5 @@
 
 int main(int argv, char** argc, char** envs)
 {
-  return registerRoutes(), 0;
+  return registerRoutes(),view("404"), 0;
 }
