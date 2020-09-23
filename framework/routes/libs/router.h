@@ -2,7 +2,7 @@
 #include <string.h>
 
 int delimiterPosition(char* req);
-bool matchPath(char* request, int* pos);
+int matchPath(char* request, int* pos);
 
 void route(char* request, void (*meth)(void))
 {
@@ -33,7 +33,7 @@ int delimiterPosition(char* req)
   return -1;
 }
 
-bool matchPath(char* request, int* pos)
+int matchPath(char* request, int* pos)
 {
   const char* uri = getenv("REQUEST_URI");
   const int requestLength = strlen(request);
@@ -47,9 +47,9 @@ bool matchPath(char* request, int* pos)
 
     if(*(request+x) != *(uri+y))
     {
-      return false;
+      return 0;
     }
   }
 
-  return true;
+  return 1;
 }
